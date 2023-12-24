@@ -1,0 +1,11 @@
+server:
+  port: 9994
+spring:
+  security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: { ISSUER_URL }
+
+app:
+  user-info-url: { USER_INFO_URL }
